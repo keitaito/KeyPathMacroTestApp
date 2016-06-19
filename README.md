@@ -19,5 +19,5 @@ I changed the macro a little bit to get rid of a Xcode's warning saying unused v
 Now you can get kind of type check and auto complete. Bye bye string key path 👋
 
 ## Environment
-The Xcode project is created with Xcode Version 8.0 beta (8S128d). Watch out storyboard settings and Objective-C's Generics type. These new changes would cause this project not to be able to work on Xcode 7.
+This Xcode project is created with Xcode Version 8.0 beta (8S128d). Watch out storyboard settings and Objective-C's Generics type. These new changes would cause this project not to be able to work on Xcode 7.
 
