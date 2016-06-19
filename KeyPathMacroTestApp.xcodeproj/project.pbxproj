@@ -13,6 +13,7 @@
 		87065F3D1D166AA80027A5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87065F3B1D166AA80027A5F9 /* Main.storyboard */; };
 		87065F3F1D166AA80027A5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87065F3E1D166AA80027A5F9 /* Assets.xcassets */; };
 		87065F421D166AA80027A5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87065F401D166AA80027A5F9 /* LaunchScreen.storyboard */; };
+		87065F4B1D166AC90027A5F9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 87065F4A1D166AC90027A5F9 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		87065F3E1D166AA80027A5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87065F411D166AA80027A5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87065F431D166AA80027A5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87065F491D166AC90027A5F9 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		87065F4A1D166AC90027A5F9 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				87065F361D166AA80027A5F9 /* AppDelegate.m */,
 				87065F381D166AA80027A5F9 /* ViewController.h */,
 				87065F391D166AA80027A5F9 /* ViewController.m */,
+				87065F491D166AC90027A5F9 /* Model.h */,
+				87065F4A1D166AC90027A5F9 /* Model.m */,
 				87065F3B1D166AA80027A5F9 /* Main.storyboard */,
 				87065F3E1D166AA80027A5F9 /* Assets.xcassets */,
 				87065F401D166AA80027A5F9 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 				87065F3A1D166AA80027A5F9 /* ViewController.m in Sources */,
 				87065F371D166AA80027A5F9 /* AppDelegate.m in Sources */,
 				87065F341D166AA80027A5F9 /* main.m in Sources */,
+				87065F4B1D166AC90027A5F9 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				87065F481D166AA80027A5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
